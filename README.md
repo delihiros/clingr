@@ -1,10 +1,10 @@
 # clingr
 
-A Clojure library designed to ... well, that part is up to you.
+This is a Lingr API wrapper for Clojure.
 
 ## Usage
 
-FIXME
+	[clingr "0.1.0"]
 
 ## License
 
