@@ -1,6 +1,5 @@
 (ns clingr.session
-  (:use [clingr.api]
-        [clingr.config])
+  (:use [clingr.api])
   (:require [clj-http.client :as client]
             [clojure.data.json :as json]))
 
