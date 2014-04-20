@@ -1,4 +1,5 @@
 (ns clingr.api
+  (:use [clingr.var])
   (:require [clj-http.client :as client]
             [clojure.data.json :as json]))
 
@@ -11,6 +12,6 @@
     (-> (client/request
           {:method method
            :url (str url request)
-           :query-params params})
+           :query-params (merge params clingr.var/*session*)})
         :body json/read-str)))
 
