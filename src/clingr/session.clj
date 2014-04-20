@@ -3,9 +3,6 @@
   (:require [clj-http.client :as client]
             [clojure.data.json :as json]))
 
-(def ^:dynamic *session*
-  (atom []))
-
 (def create
   (lingr :post "/session/create"))
 
@@ -14,3 +11,4 @@
 
 (def destroy
   (lingr :get "/session/destroy"))
+
