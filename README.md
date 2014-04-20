@@ -4,7 +4,7 @@ This is a Lingr API wrapper for Clojure.
 
 ## Usage
 
-	[clingr "0.1.0"]
+	[clingr "0.1.1"]
 
 ## License
 

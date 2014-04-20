@@ -1,4 +1,4 @@
-(defproject clingr "0.1.0"
+(defproject clingr "0.1.1"
   :description "Lingr API wrapper for Clojure"
   :url "http://github.com/delihiros/clingr"
   :license {:name "Eclipse Public License"
